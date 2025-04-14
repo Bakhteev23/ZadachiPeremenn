@@ -12,6 +12,6 @@
     println(thanksForYourOrder)
     println("Общее колличество работников : $totalEmployees")
 
-    totalEmployees = 1999
+    totalEmployees -= 1
     println("Общее колличество работников после увольнения : $totalEmployees")
  }
