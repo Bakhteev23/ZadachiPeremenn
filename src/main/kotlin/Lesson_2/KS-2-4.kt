@@ -2,9 +2,11 @@ package Lesson_2
 
 fun main () {
 
-    val minedCrystalOres: Int = 7
-    val minedIronOre: Int = 11
-    val percentageBaff: Double = 0.20
+    val minedCrystalOres = 7
+    val minedIronOre = 11
+    val percentageBaffInt = 20
+
+    val percentageBaff = percentageBaffInt / 100.00
 
     val bonusCrystal: Int = (minedCrystalOres * percentageBaff).toInt()
     val bonusIron: Int = (minedIronOre * percentageBaff).toInt()
