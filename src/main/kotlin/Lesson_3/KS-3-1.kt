@@ -1,14 +1,13 @@
 package Lesson_3
 
-fun main () {
+fun main() {
 
     val userName = "Paul"
-    var welcome = ""
+    var welcome = "Добрый день"
 
-    welcome = "Добрый день, $userName"
-    println(welcome)
+    println("$welcome,$userName!")
 
-    welcome = "Добрый вечер, $userName"
-    println(welcome)
+    welcome = "Добрый вечер"
+    println("$welcome,$userName!")
 
 }
