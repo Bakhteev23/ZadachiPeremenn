@@ -1,17 +1,25 @@
 package Lesson_4
 
+const val SUNNY_WEATHER: String = "солнечная"
+const val IS_AWNING_OPEN: Boolean = true
+const val AIR_HUMIDITY: Int = 20
+const val SEASON_WINTER: String = "зима"
+
 fun main() {
+
 
     val weatherToday: String = "солнечная"
     val tentOpen: Boolean = true
-    val airHumidity: Int = 20
+    val humidity: Int = 20
     val currentSeason: String = "зима"
+    val isSunny = weatherToday == SUNNY_WEATHER
+    val isTentOpen = tentOpen == IS_AWNING_OPEN
+    val humidityOptimal = humidity == AIR_HUMIDITY
+    val isNotWinter = currentSeason != SEASON_WINTER
 
-    val result = (weatherToday == "солнечная") &&
-            (tentOpen) &&
-            (airHumidity == 20) &&
-            (currentSeason != "зима")
-    println("Благоприятные ли условия сейчас для роста бобовых? $result")
+    val favorableConditions = isSunny && isTentOpen && humidityOptimal && isNotWinter
+
+    println("Благоприятные ли условия сейчас для роста бобовых? $favorableConditions")
 
 
 }
