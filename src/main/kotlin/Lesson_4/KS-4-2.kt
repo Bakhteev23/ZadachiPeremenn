@@ -19,5 +19,5 @@ fun main() {
     println(
         "Груз с весом $weight2 кг и объемом $volume2 л соответствует категории 'Average': " +
                 ((weight2 > MIN_WEIGHT && weight2 <= MAX_WEIGHT) && (volume2 < MAX_VOLUME))
-    )
+     )
 }
