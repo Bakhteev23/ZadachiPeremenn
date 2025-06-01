@@ -11,6 +11,7 @@ fun main() {
     val weight2 = 50
     val volume2 = 100
 
+
     println(
         "Груз с весом $weight1 кг и объемом $volume1 л соответсвует категории 'Average': " +
                 ((weight1 > MIN_WEIGHT && weight1 <= MAX_WEIGHT) && (volume1 < MAX_VOLUME))
