@@ -14,5 +14,5 @@ fun main() {
                 "Упражнения для ног: ${exercisesForLegsAndBack}\n" +
                 "Упражнения для спины: ${exercisesForLegsAndBack}\n" +
                 "Упражнения для пресса: ${exercisesForHandAndAbs}"
-    )
+     )
 }
